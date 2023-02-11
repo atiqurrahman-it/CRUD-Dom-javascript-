@@ -1,0 +1,10 @@
+#crud-dom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.curd {
+  background-color: aqua;
+  height: 300px;
+  width: 70%;
+}
