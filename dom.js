@@ -11,9 +11,6 @@ form.addEventListener('submit',function(e){
     e.preventDefault();
 
     formValidation()
-    console.log(e.target)
-
-
 })
 
 function formValidation(){
@@ -21,6 +18,7 @@ function formValidation(){
         errorMsg.innerText="Post cannot be blank,Please some text !";
         errorMsg.style.color='red'
     }else{
+      errorMsg.innerText=""
         acceptData()
     }
 }
@@ -42,7 +40,6 @@ function createElement(data){
 function acceptData(){
     data=input.value
     createElement(data)
-    console.log("value ave ")
 
 
 }
